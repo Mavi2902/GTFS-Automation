@@ -17,10 +17,10 @@ This directory contains Python scripts to automate the generation of GTFS transi
 
 ## 🚀 How to Run the Scripts  
 
-### **🔹 Running `trips.py`**  
+ **🔹 Running `trips.py`**  
  Open a terminal and navigate to the `code/` directory:  
    cd code
-###Run the script:
+Run the script:
 python trips.py
 Follow the prompts to input transit details.
 The generated trips.txt file will be saved in the same directory.
