@@ -35,7 +35,7 @@ tags:
   - urban mobility
 
 
-## sirSummary
+## Summary
 
 Public transportation is the backbone of urban mobility, its efficiency depends on how easily it is accessible and useful transit information. General Transit Feed Specification (GTFS) provides a structured data format for representing the schedules and spatial information of public transportation systems. This method makes public transportation information easier to integrate and share through digital platforms like Google Maps, enhancing commuters' access. This paper describes the Orange Line Metro Bus in Islamabad's GTFS installation, a significant step toward updating the city's transit system by digitizing transit data. In contrast to the labor-intensive manual transcription of schedules, or a fully automated solution that may be complex to set up, we propose a semi-automated scripting approach that is efficient, simple, and easy to adopt by public transit authorities. Our semi-automated solution uses Python scripts to generate the GTFS feed, which transit agencies can easily customize and maintain. The feed generated from our work is operational. In an effort to promote GTFS adoption, particularly in resource-constrained countries, we are making our code publicly available. This can significantly improve access to public transit information for citizens.
 
@@ -54,7 +54,7 @@ One of the key components of our data was the stop coordinates and bus schedules
 While preparing the GTFS dataset, created several standard text files to define different parts of the transit system following the GTFS specification [@gtfs_reference]. The *agency.txt* file includes basic details about the transport authority, like its name, website,time zone and also requires an id to assign an id to the agency. Route-level data is stored in routes.txt, which lists each route along with its name, ID, type (such as metro or bus), and the agency it belongs to. The **trips.txt** file links these routes to individual trips, while "stop\_times.txt" provides the actual schedule, showing when each trip stops at each station ,like when a bus arrive at stops and when it departure. We used **stops.txt"** to record all stop locations, including their names and precise coordinates. The **calendar.txt** file defines which days the services run like weekdays, weekends, or specific dates. The **fare\_attributes.txt** holds the fare rules, such as ticket prices, payment types, and transfer policies and finally **fare\_rules.txt** provide the links of fare with routes if different routes has different fares. Together, these files form a complete GTFS feed that helps organize, map, and plan the transit service more effectively.**Figure 1**  illustrates the GTFS schema, showing the relationship between stops, routes, trips, and 
 
 ![GTFS schema showing relationships between stops, routes, trips, and schedules.](https://raw.githubusercontent.com/Mavi2902/GTFS-Automation/main/paper/images/GTFS.jpg)
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Figure 1: GTFS schema showing relationships between stops, routes, trips, and schedules.**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Figure 1: GTFS schema showing relationships between stops, routes, trips, and schedules.**
 
 
 
@@ -198,7 +198,7 @@ Once processed by Google Transit, the generated GTFS feed was successfully integ
 
 ![Figure 2: GTFS feed successfully integrated into Google Maps](https://raw.githubusercontent.com/Mavi2902/GTFS-Automation/main/paper/images/Orange%20line%20google%20map%20visualization.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Figure 2:** GTFS feed successfully integrated into Google Maps, displaying Orange Line Metro transit data.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Figure 2:** GTFS feed successfully integrated into Google Maps, displaying Orange Line Metro transit data.
 
 
 
