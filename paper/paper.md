@@ -234,7 +234,7 @@ While our current work automates the generation of two key GTFS files (stop_time
 
 ## Software Availability
 
-The GTFS automation scripts and dataset for Islamabad's Orange Line Metro Bus are publicly available at [GitHub repository code  folder](https://github.com/Mavi2902/GTFS-Automation/tree/main/code). This software is released under the MIT License.
+The GTFS automation scripts and dataset for Islamabad's Orange Line Metro Bus are publicly available at [GitHub repository code  folder](https://github.com/Mavi2902/GTFS-Automation/tree/main/code). This software is released under the MIT License and version 1.0.0.
 
 ## Acknowledgments
 
