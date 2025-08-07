@@ -1,4 +1,5 @@
 **Automating GTFS Feed Generation for Public** **Transit: A Case Study of Islamabad's Orange Line**
+
 authors:
 
   - name: "Muawia Irfan"
@@ -162,8 +163,9 @@ The following algorithm is designed to generate trips.txt in the GTFS feed autom
 ---
 
 ##### Output
-A set \( \mathcal{T} = \{ (trip\_id, route\_id, service\_id, headsign, direction\_id, block\_id, shape\_id) \} \)  
-written to `trips.txt` in GTFS format.
+A set T = { (trip_id, route_id, service_id, headsign, direction_id, block_id, shape_id) }  
+is written to `trips.txt` following the GTFS specification.
+
 
 ---
 
