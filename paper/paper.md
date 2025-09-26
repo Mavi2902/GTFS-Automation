@@ -1,5 +1,5 @@
-
-**Automating GTFS Feed Generation for Public** **Transit: A Case Study of Islamabad's Orange Line**
+---
+title: **Automating GTFS Feed Generation for Public Transit: A Case Study of Islamabad's Orange Line**
 
 authors:
 
@@ -38,14 +38,14 @@ affiliations:
 date: 4 August 2025
 
 bibliography: paper.bib
----
+
 tags:
   - GTFS
   - public transportation
   - Python
   - transit data automation
   - urban mobility
-
+---
 
 ## Summary
 
