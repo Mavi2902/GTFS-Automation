@@ -1,5 +1,5 @@
 ---
-title: **Automating GTFS Feed Generation for Public Transit: A Case Study of Islamabad's Orange Line**
+title: "Automating GTFS Feed Generation for Public Transit: A Case Study of Islamabad's Orange Line"
 
 authors:
 
