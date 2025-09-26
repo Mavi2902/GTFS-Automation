@@ -1,4 +1,4 @@
----
+
 **Automating GTFS Feed Generation for Public** **Transit: A Case Study of Islamabad's Orange Line**
 
 authors:
@@ -36,6 +36,7 @@ affiliations:
     index: 2
 
 date: 4 August 2025
+
 bibliography: paper.bib
 ---
 tags:
