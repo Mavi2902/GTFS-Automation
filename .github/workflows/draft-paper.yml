@@ -1,0 +1,47 @@
+name: Draft paper (HTML preview + checks)
+
+on:
+  push:
+    branches: [main]        
+    paths:
+      - paper/**            
+  workflow_dispatch:         
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+     
+      - name: Verify required files exist
+        run: |
+          test -f paper/paper.md
+          test -f paper/paper.bib
+
+      
+      - name: Install pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
+      - name: Build HTML preview
+        run: |
+          pandoc paper/paper.md \
+            --from markdown \
+            --to html5 \
+            --citeproc \
+            --resource-path=paper \
+            --output paper/paper_preview.html
+
+  
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-preview
+          path: |
+            paper/paper_preview.html
+            paper/paper.md
+            paper/paper.bib
+            paper/images/**
