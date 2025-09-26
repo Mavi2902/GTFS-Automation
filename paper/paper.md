@@ -34,11 +34,11 @@ affiliations:
   - name: "School of Sociology, Quaid-i-Azam University, Islamabad"
     index: 2
 
-
+---
 date: 4 August 2025
 
 bibliography: paper.bib
-
+---
 tags:
   - GTFS
   - public transportation
@@ -52,7 +52,7 @@ tags:
 Public transportation is the backbone of urban mobility, and its effectiveness relies heavily on accessibility. The General Transit Feed Specification (GTFS) offers a standardized format for representing transit schedules and spatial data, and enables easy integration with digital platforms like Google Maps.This paper outlines the preparation and deployment of GTFS data for Islamabad’s Orange Metro Bus Line. Instead of manual transcription or complex automated systems, we propose a semi-automated scripting-based approach that is efficient, user-friendly, and adaptable for transit agencies. To encourage broader GTFS adoption, especially in resource-limited settings, we have made our code publicly available.
 
 ## Statement of Need
-In recent years, Islamabad has significantly expanded its public transport network with the addition of the Red, Green, Blue, and Orange metro bus lines, along with the launch of an electric vehicle (EV) service. However, a major yet overlooked challenge remains: The lack of accessible digital transit information for daily commuters .To address this gap, we implemented GTFS for the Orange Metro Bus Line and developed semi-automated Python scripts to efficiently generate standardized transit feeds.
+In recent years, Islamabad has significantly expanded its public transport network with the addition of the Red, Green, Blue, and Orange metro bus lines, along with the launch of an electric vehicle (EV) service. However, a major yet overlooked challenge remains: The lack of accessible digital transit information for daily commuters. To address this gap, we implemented GTFS for the Orange Metro Bus Line and developed semi-automated Python scripts to efficiently generate standardized transit feeds.
 
 ## Methodology
 This section explains how the GTFS data for the Orange Line Metro Bus in Islamabad was developed and . It covers the process of collecting relevant data, organizing it into GTFS format, and using Python scripts to automate different steps.
