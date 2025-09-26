@@ -34,11 +34,10 @@ affiliations:
   - name: "School of Sociology, Quaid-i-Azam University, Islamabad"
     index: 2
 
----
 date: 4 August 2025
 
 bibliography: paper.bib
----
+
 tags:
   - GTFS
   - public transportation
